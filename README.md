@@ -8,3 +8,8 @@ Aplicativo corporativo com 11 etapas de gerenciamento desenvolvido em Power apps
 
 Foco em automação de processos e ganho de eficiencia
 
+Premissario BIOE
+
+Aplicativo de premissas em power apps pra gerenciamento de premissas e preparação de projetos
+
+
