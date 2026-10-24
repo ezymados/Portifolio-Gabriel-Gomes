@@ -314,11 +314,6 @@ Responsável pelo desenvolvimento da aplicação web, incluindo:
 
 A estrutura de visualização dos postos de trabalho e a navegação por dias foram desenvolvidas. A integração com banco de dados e o fluxo automatizado de solicitações de troca fazem parte da evolução planejada.
 
-### Demonstração
-
-**Site:** https://postos-de-trabalho.netlify.app/
-
-*O acesso e a disponibilidade da demonstração podem variar. A divulgação pública deve respeitar as políticas de confidencialidade da empresa.*
 
 **Categoria:** Desenvolvimento Web | HTML | CSS | JavaScript | Sistemas Corporativos | Automação de Processos
 
