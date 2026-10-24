@@ -194,6 +194,134 @@ As funcionalidades de exportação automática de Excel, integração avançada 
 
 *Projeto corporativo apresentado de forma descritiva, sem divulgação de informações confidenciais, dados internos ou códigos proprietários.*
 
+## 3. Mapa de Postos de Trabalho | Sistema Web de Gestão de Ocupação
+
+### Sobre o projeto
+
+Desenvolvimento de uma aplicação web voltada à organização, visualização e gerenciamento dos postos de trabalho em um ambiente corporativo com modelo híbrido de trabalho.
+
+O sistema utiliza uma representação visual da planta do escritório, permitindo identificar a localização das mesas, seus códigos de identificação e os colaboradores associados a cada posto conforme o dia da semana.
+
+A solução foi desenvolvida utilizando HTML, CSS e JavaScript, com publicação na plataforma Netlify e planejamento de integração com banco de dados e processos automatizados.
+
+### Problema que o projeto busca resolver
+
+Em ambientes corporativos com trabalho híbrido, a distribuição de colaboradores entre os postos de trabalho pode variar diariamente.
+
+Sem uma ferramenta centralizada, surgem dificuldades como:
+
+- Identificar quais colaboradores estarão presencialmente em determinado dia.
+- Localizar a mesa de um colega no escritório.
+- Consultar a distribuição dos postos de trabalho.
+- Atualizar informações de ocupação.
+- Organizar solicitações de troca de dias presenciais.
+- Manter as informações acessíveis a todos os colaboradores.
+
+O sistema foi criado para facilitar essa organização, oferecendo uma interface visual e acessível para consulta dos postos de trabalho.
+
+### Principais funcionalidades
+
+**1. Mapa interativo do escritório**
+- Visualização da planta do ambiente corporativo.
+- Identificação das mesas por códigos individuais.
+- Exibição dos nomes dos colaboradores associados aos postos.
+- Destaque visual da área de Engenharia.
+- Posicionamento dos identificadores sobre a planta do escritório.
+- Ajustes de dimensionamento para diferentes tamanhos de tela.
+
+**2. Visualização por dia da semana**
+- Seleção de segunda a sexta-feira.
+- Consulta da distribuição dos colaboradores em cada dia.
+- Atualização visual dos nomes apresentados no mapa.
+- Navegação entre diferentes períodos de trabalho.
+
+**3. Administração dos postos**
+- Interface para gerenciamento das informações apresentadas.
+- Recursos para edição dos nomes associados às mesas.
+- Separação entre funcionalidades de administração e visualização.
+- Estrutura preparada para controle de permissões.
+
+**4. Acesso simplificado**
+- Aplicação disponibilizada por meio de hospedagem web.
+- Acesso pelo navegador, sem necessidade de instalação.
+- Possibilidade de utilização de QR Code para acesso rápido.
+- Interface desenvolvida para utilização em computadores e dispositivos móveis.
+
+**5. Solicitação de troca de dias presenciais — Planejado**
+- Formulário para solicitação de alteração de dias de trabalho presencial.
+- Identificação do colaborador solicitante.
+- Seleção da data atual e da data desejada.
+- Possibilidade de solicitar troca com outro colaborador.
+- Registro do e-mail do colega envolvido na solicitação.
+- Envio de notificações por e-mail.
+- Fluxo de aceite ou recusa da solicitação.
+- Atualização da distribuição dos postos após a confirmação da troca.
+
+**6. Integração com banco de dados — Planejado**
+- Armazenamento centralizado das informações de ocupação.
+- Integração com Excel ou SharePoint.
+- Persistência das alterações realizadas pelos administradores.
+- Atualização dos dados apresentados na aplicação.
+- Estrutura preparada para expansão do sistema.
+
+### Tecnologias e ferramentas utilizadas
+
+- **HTML5:** estruturação das páginas e dos componentes da aplicação.
+- **CSS3:** estilização da interface, posicionamento dos elementos e adaptação visual.
+- **JavaScript:** implementação da lógica de funcionamento, seleção de dias e atualização das informações exibidas.
+- **Visual Studio Code:** desenvolvimento e manutenção do código-fonte.
+- **Netlify:** hospedagem e publicação da aplicação web.
+- **Microsoft Excel / SharePoint:** tecnologias consideradas para armazenamento e integração futura dos dados.
+- **Power Automate:** ferramenta prevista para automação de notificações e solicitações de troca.
+
+### Estrutura da aplicação
+
+O sistema foi organizado para oferecer uma experiência simples e objetiva.
+
+**Área de visualização:** permite consultar o mapa do escritório, selecionar os dias da semana e identificar os colaboradores associados aos postos.
+
+**Área administrativa:** destinada à atualização das informações de ocupação e ao gerenciamento dos nomes apresentados.
+
+**Gestão de solicitações — evolução planejada:** permitirá registrar e acompanhar pedidos de alteração de dias presenciais, incluindo fluxos de confirmação entre colaboradores.
+
+### Objetivos e benefícios
+
+- Facilitar a localização de colaboradores no escritório.
+- Melhorar a organização dos postos de trabalho.
+- Centralizar as informações de ocupação.
+- Simplificar a consulta da distribuição presencial.
+- Reduzir a necessidade de consultas e atualizações manuais.
+- Facilitar a administração de equipes em regime híbrido.
+- Preparar a estrutura para automatização de solicitações e atualizações.
+
+### Minha atuação no projeto
+
+Responsável pelo desenvolvimento da aplicação web, incluindo:
+
+- Estruturação das páginas utilizando HTML.
+- Desenvolvimento da identidade visual e dos componentes com CSS.
+- Implementação da lógica de funcionamento utilizando JavaScript.
+- Integração da planta do escritório à interface.
+- Desenvolvimento dos controles de seleção dos dias da semana.
+- Posicionamento dos identificadores dos postos de trabalho.
+- Implementação e ajustes dos recursos de visualização e administração.
+- Publicação e testes da aplicação no Netlify.
+- Planejamento de melhorias relacionadas à persistência de dados e automação de processos.
+
+### Status do projeto
+
+**Aplicação web desenvolvida e publicada, com melhorias em andamento.**
+
+A estrutura de visualização dos postos de trabalho e a navegação por dias foram desenvolvidas. A integração com banco de dados e o fluxo automatizado de solicitações de troca fazem parte da evolução planejada.
+
+### Demonstração
+
+**Site:** https://postos-de-trabalho.netlify.app/
+
+*O acesso e a disponibilidade da demonstração podem variar. A divulgação pública deve respeitar as políticas de confidencialidade da empresa.*
+
+**Categoria:** Desenvolvimento Web | HTML | CSS | JavaScript | Sistemas Corporativos | Automação de Processos
+
 
 
 
