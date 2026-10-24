@@ -323,5 +323,152 @@ A estrutura de visualização dos postos de trabalho e a navegação por dias fo
 **Categoria:** Desenvolvimento Web | HTML | CSS | JavaScript | Sistemas Corporativos | Automação de Processos
 
 
+## 4. Sistema de Gestão e Liberação de Acessos | SharePoint
+
+### Sobre o projeto
+
+Desenvolvimento de uma aplicação corporativa utilizando Microsoft Power Apps e Power Automate, integrada ao Microsoft SharePoint, com o objetivo de simplificar e centralizar o gerenciamento de permissões de acesso a pastas e bibliotecas de documentos.
+
+O sistema permite administrar acessos de maneira individualizada, concedendo ou removendo permissões de usuários em pastas específicas, sem a necessidade de liberar uma biblioteca inteira.
+
+A solução também conta com um mecanismo de pré-configuração de acessos por cargo, permitindo associar colaboradores a conjuntos de pastas previamente definidos, além de consultar quais usuários possuem acesso a determinados diretórios.
+
+### Problema que o projeto busca resolver
+
+O gerenciamento manual de permissões no SharePoint pode se tornar complexo em ambientes corporativos com diversas bibliotecas, pastas e colaboradores.
+
+Entre os principais desafios estão:
+
+- Necessidade de configurar permissões individualmente em diferentes pastas.
+- Dificuldade para conceder acesso somente aos documentos necessários.
+- Risco de liberar bibliotecas inteiras quando o usuário precisa acessar apenas determinadas pastas.
+- Trabalho repetitivo na configuração de acessos para colaboradores com a mesma função.
+- Dificuldade para identificar quais pessoas possuem acesso a determinados diretórios.
+- Necessidade de remover permissões de forma rápida e organizada.
+
+A aplicação foi desenvolvida para simplificar essas operações por meio de uma interface centralizada e fluxos automatizados.
+
+### Principais funcionalidades
+
+**1. Liberação de acesso a pastas específicas**
+- Seleção de pastas do SharePoint.
+- Inclusão de usuários nas permissões das pastas selecionadas.
+- Concessão de acesso individualizado.
+- Possibilidade de liberar somente os diretórios necessários.
+- Gerenciamento de permissões sem precisar conceder acesso à biblioteca inteira.
+
+**2. Gerenciamento de bibliotecas**
+- Possibilidade de conceder acesso a bibliotecas completas.
+- Administração de permissões em diferentes níveis da estrutura documental.
+- Centralização das operações de liberação de acesso.
+
+**3. Remoção de permissões**
+- Seleção de usuários com acesso a determinadas pastas.
+- Revogação de permissões previamente concedidas.
+- Gerenciamento de acessos sem necessidade de realizar todas as operações manualmente pelo SharePoint.
+
+**4. Liberação automática de acessos por cargo**
+- Cadastro de uma lista predefinida de acessos.
+- Associação de cargos a conjuntos específicos de pastas.
+- Inclusão de colaboradores em perfis de acesso.
+- Concessão dos acessos correspondentes às pastas associadas ao cargo.
+- Redução de tarefas repetitivas na configuração de permissões.
+
+**5. Consulta de usuários com acesso**
+- Visualização dos usuários que possuem permissão em determinadas pastas.
+- Consulta das permissões associadas aos diretórios.
+- Facilidade para conferir os acessos existentes.
+- Apoio à organização e ao controle das permissões corporativas.
+
+**6. Automação das operações**
+- Integração entre Power Apps e Power Automate.
+- Acionamento de fluxos a partir das operações realizadas na aplicação.
+- Execução automatizada de ações relacionadas à concessão e remoção de acessos.
+- Comunicação com o SharePoint para gerenciamento das permissões.
+
+### Tecnologias e ferramentas utilizadas
+
+- **Microsoft Power Apps:** desenvolvimento da interface de gerenciamento de acessos.
+- **Power Fx:** implementação da lógica da aplicação, seleção de usuários, navegação e acionamento das operações.
+- **Microsoft Power Automate:** automação dos processos de concessão, remoção e gerenciamento de permissões.
+- **Microsoft SharePoint:** armazenamento dos documentos e gerenciamento das bibliotecas e pastas.
+- **Microsoft 365:** ambiente corporativo de integração e identificação dos usuários.
+
+### Exemplo de funcionamento
+
+**Cenário 1 — Liberação individual**
+
+Um colaborador precisa acessar uma pasta específica dentro de uma biblioteca do SharePoint.
+
+1. O responsável acessa a aplicação desenvolvida no Power Apps.
+2. Seleciona a pasta desejada.
+3. Informa ou seleciona o colaborador.
+4. Solicita a concessão da permissão.
+5. O Power Automate executa o processo de liberação no SharePoint.
+
+O colaborador passa a ter acesso à pasta autorizada, sem a necessidade de receber permissão para toda a biblioteca.
+
+**Cenário 2 — Liberação por cargo**
+
+Um novo colaborador precisa receber acesso às pastas relacionadas à sua função.
+
+1. O responsável acessa a aplicação.
+2. Seleciona o colaborador.
+3. Associa o usuário a um cargo previamente configurado.
+4. O sistema identifica as pastas relacionadas ao cargo.
+5. Os fluxos automatizados realizam as liberações correspondentes.
+
+Dessa forma, diferentes colaboradores que exercem a mesma função podem receber conjuntos padronizados de permissões.
+
+**Cenário 3 — Consulta e remoção de acesso**
+
+Quando é necessário verificar ou retirar uma permissão, o responsável pode consultar os usuários com acesso à pasta e realizar a revogação diretamente pela aplicação.
+
+### Objetivos e benefícios
+
+- Simplificar a administração de permissões no SharePoint.
+- Reduzir o trabalho manual de configuração de acessos.
+- Permitir liberações individualizadas por pasta.
+- Evitar concessões desnecessariamente amplas.
+- Padronizar acessos conforme as funções dos colaboradores.
+- Facilitar a consulta das permissões existentes.
+- Agilizar a inclusão e a remoção de usuários.
+- Centralizar operações administrativas em uma única interface.
+- Apoiar a organização e a governança dos documentos corporativos.
+
+### Minha atuação no projeto
+
+Responsável pelo desenvolvimento da solução utilizando Microsoft Power Platform, incluindo:
+
+- Desenvolvimento da aplicação no Power Apps.
+- Implementação da interface de gerenciamento de usuários e pastas.
+- Construção das funcionalidades de concessão e remoção de acessos.
+- Integração da aplicação com fluxos do Power Automate.
+- Automação das operações de gerenciamento de permissões no SharePoint.
+- Desenvolvimento da lógica de associação de acessos por cargo.
+- Implementação de recursos para consulta dos usuários com acesso a determinadas pastas.
+- Testes e ajustes das funcionalidades desenvolvidas.
+
+### Diferenciais técnicos
+
+O projeto demonstra a aplicação prática de conceitos importantes para o desenvolvimento de sistemas corporativos:
+
+- **Controle de acesso:** administração de permissões de usuários sobre recursos específicos.
+- **Automação de processos:** substituição de operações manuais por fluxos automatizados.
+- **Integração de sistemas:** comunicação entre Power Apps, Power Automate e SharePoint.
+- **Padronização por função:** definição de conjuntos de acessos associados aos cargos.
+- **Governança de informações:** maior visibilidade e organização das permissões de documentos corporativos.
+
+### Status do projeto
+
+**Solução corporativa desenvolvida para gerenciamento de permissões no SharePoint.**
+
+O projeto contempla liberação e remoção de acessos, concessão de permissões por cargo e consulta de usuários autorizados em pastas específicas.
+
+**Categoria:** Power Platform | Power Apps | Power Automate | SharePoint | Controle de Acesso | Automação Corporativa
+
+*Projeto corporativo apresentado de forma descritiva, sem divulgação de informações confidenciais, dados internos, credenciais ou estruturas documentais restritas.*
+
+
 
 
