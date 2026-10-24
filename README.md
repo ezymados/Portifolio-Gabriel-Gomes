@@ -469,6 +469,117 @@ O projeto contempla liberação e remoção de acessos, concessão de permissõe
 
 *Projeto corporativo apresentado de forma descritiva, sem divulgação de informações confidenciais, dados internos, credenciais ou estruturas documentais restritas.*
 
+## 5. Padronizador Inteligente de Faturas | Microsoft Copilot Studio
+
+### Sobre o projeto
+
+Desenvolvimento de uma solução de inteligência artificial utilizando Microsoft Copilot Studio, voltada à padronização de faturas e documentos corporativos da Orizon.
+
+O projeto tem como objetivo transformar faturas recebidas em diferentes formatos e estruturas em documentos organizados conforme um modelo padronizado da empresa, utilizando um arquivo Word como referência.
+
+A solução busca automatizar a adaptação das informações e da estrutura dos documentos, reduzindo o trabalho manual necessário para adequar faturas ao padrão corporativo.
+
+### Problema que o projeto busca resolver
+
+Em processos administrativos e financeiros, faturas podem ser recebidas com diferentes estruturas, organizações e padrões de apresentação.
+
+Essa falta de uniformidade pode gerar dificuldades como:
+
+- Necessidade de reorganizar manualmente as informações das faturas.
+- Tempo gasto na adaptação de documentos ao modelo corporativo.
+- Diferenças na apresentação de informações entre documentos.
+- Possibilidade de erros durante a transcrição e reorganização dos dados.
+- Retrabalho na preparação e conferência de documentos.
+- Dificuldade para manter uma apresentação consistente.
+
+O padronizador foi desenvolvido para simplificar esse processo por meio de uma solução baseada em inteligência artificial.
+
+### Principais funcionalidades
+
+**1. Recebimento de faturas**
+- Entrada de documentos que não seguem o padrão corporativo.
+- Processamento das informações contidas nas faturas.
+- Utilização dos documentos recebidos como base para a padronização.
+
+**2. Utilização de um modelo Word**
+- Definição de um documento Word como referência de padronização.
+- Utilização de uma estrutura previamente estabelecida pela empresa.
+- Organização das informações conforme o modelo corporativo.
+
+**3. Padronização inteligente**
+- Utilização do Microsoft Copilot Studio para apoiar o processamento dos documentos.
+- Identificação e reorganização das informações necessárias.
+- Adaptação do conteúdo recebido ao padrão estabelecido.
+- Geração de uma versão padronizada da fatura.
+
+**4. Uniformização dos documentos**
+- Padronização da apresentação das informações.
+- Redução de diferenças estruturais entre faturas.
+- Apoio à consistência dos documentos utilizados nos processos corporativos.
+
+### Tecnologias e ferramentas utilizadas
+
+- **Microsoft Copilot Studio:** desenvolvimento da solução baseada em inteligência artificial.
+- **Inteligência Artificial Generativa:** interpretação e reorganização de informações documentais.
+- **Microsoft Word:** modelo de referência para a estrutura e a apresentação padronizada das faturas.
+
+### Exemplo de funcionamento
+
+**Cenário — Recebimento de uma fatura fora do padrão**
+
+Uma fatura é recebida com uma organização diferente daquela utilizada pela empresa.
+
+**1. Entrada:** o documento é fornecido à solução desenvolvida no Copilot Studio.
+
+**2. Processamento:** a solução interpreta as informações presentes na fatura.
+
+**3. Padronização:** o conteúdo é reorganizado conforme o modelo Word utilizado como referência.
+
+**4. Resultado:** é produzida uma versão da fatura adequada ao padrão corporativo.
+
+O objetivo é reduzir a necessidade de reorganizar manualmente os documentos recebidos.
+
+### Objetivos e benefícios
+
+- Automatizar a padronização de faturas.
+- Reduzir atividades repetitivas de formatação e reorganização.
+- Facilitar o tratamento de documentos com estruturas diferentes.
+- Padronizar a apresentação das informações.
+- Diminuir o tempo necessário para preparar documentos.
+- Apoiar a produtividade dos processos administrativos.
+- Aplicar inteligência artificial à solução de problemas corporativos.
+
+### Minha atuação no projeto
+
+Responsável pelo desenvolvimento da solução utilizando Microsoft Copilot Studio, incluindo:
+
+- Identificação da necessidade de padronização documental.
+- Utilização do modelo Word como referência.
+- Configuração da solução de inteligência artificial.
+- Estruturação das instruções para interpretação e reorganização das informações.
+- Desenvolvimento da lógica de padronização dos documentos.
+- Realização de testes e ajustes para adequação ao modelo corporativo.
+
+### Diferenciais técnicos
+
+**Inteligência artificial aplicada a processos reais:** utilização do Copilot Studio para solucionar uma necessidade operacional da empresa.
+
+**Processamento de documentos:** transformação de informações recebidas em diferentes estruturas para um formato padronizado.
+
+**Padronização corporativa:** utilização de um modelo de referência para manter consistência na apresentação documental.
+
+**Automação de atividades administrativas:** redução da necessidade de intervenção manual na reorganização das faturas.
+
+### Status do projeto
+
+**Solução desenvolvida utilizando Microsoft Copilot Studio.**
+
+O projeto é voltado à transformação de faturas fora do padrão em documentos organizados conforme o modelo corporativo estabelecido.
+
+**Categoria:** Inteligência Artificial | Microsoft Copilot Studio | IA Generativa | Processamento de Documentos | Automação Corporativa
+
+*Projeto corporativo apresentado de forma descritiva, sem divulgação de faturas reais, informações financeiras, documentos internos ou dados confidenciais da empresa.*
+
 
 
 
